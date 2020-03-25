@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Roy's Freakin' Awesome Website</title>
+	</head>
+	<body>
+		<div id="menu">
+		<center>
+				<a href="#about">About Me</a> | 
+				<a href="#photos">My Photos</a> |
+				<a href="#playlist">My Playlist</a> |
+				<a href="#like">Like</a> |
+				<a href="#qrcoder">QR code</a> |
+				<a href="#spa">Q&A</a> |
+				<a href="#contact">Contact Me</a>
+			</center>
+		</div>
+		  
+		<section id="about" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>About Me</center>
+			</h1>
+			<p>
+				My name is Roy, I'm 25 years old and I'm a third year student in Ben Gurion University. I study Information Systems Engineering, 
+				and the subject that intests me the most in my studies is artificial intelligence (AI). 
+				My expectations from this course (Web Development Environments) are acquiring new tools for creation and developing software systems, websites and applications, 
+				and enriching my abilities and skills in computer usage. 
+				<br/>
+				A challenging part in this assignment was self studying the syntax and how to work with html and css. 
+				<br/>
+				<br/>
+				My main hobbies are hanging out with my friends, sports and listening to music.
+				<br/>
+			</p> 	
+			<br/>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="photos" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>My Photos</center>
+			</h1>
+			<br/>
+			<br/>
+			<img src="C:\Users\royj1\Pictures\Philippines 2018\43046262_1983938011649410_1640729497651118080_o.jpg" height="450" width="375">
+			<img src="C:\Users\royj1\Pictures\New Zealand\South Island\Wanaka & Mt. Aspiring National Park\Roy's Peak 12.JPG" height="300" width="400">
+			<img src="C:\Users\royj1\Pictures\WhatsApp Image 2020-03-21 at 19.52.53.jpeg" height="200" width="400">
+			<br/>
+			<br/>
+		</section>
+
+		<section id="playlist" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>My Playlist</center>
+			</h1>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="like" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>Give Me a Like</center>
+			</h1>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="qrcoder" class="section">
+				<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>Scan My Code</center>
+			</h1>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="spa" class="section">
+				<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>Ans</center>
+			</h1>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="contact" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<h1 style="font-size:200%">
+				<center>Contact Me</center>
+			</h1>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</section>
+
+
+		<script type="text/javascript">
+		$(function(){
+		  $("#nav a").click(function(e){
+			e.preventDefault();
+			$('html,body').scrollTo(this.hash,this.hash); 
+		  });
+		});
+		</script>
+		<script type="text/javascript">
+		 $(document).scroll(function() {
+			$('#menu').toggle($(this).scrollTop()>1000)
+		 });​
+		 </script>
+	</body>
+</html>
